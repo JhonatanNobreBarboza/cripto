@@ -6,5 +6,7 @@ app.listen(3000, function(){
 })
 
 app.get('/', (req, res)=>{
-    res.send('teste')
+    res.render('index.ejs')
 })
+
+app.set('view engine', 'ejs')
