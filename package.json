@@ -18,6 +18,10 @@
   "homepage": "https://github.com/JhonatanNobreBarboza/cripto#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "ember-cli-materialize": "^0.22.0"
   }
 }
