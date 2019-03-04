@@ -1,3 +1,4 @@
+<% const criptografar = require('./criptografar') %>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -21,7 +22,7 @@
 </nav>
 <div class="container-fluid">
 
-<form>
+<form method="POST" action="./criptografar">
     <div class="row">
         <div class="form-group col-5" >
             <label for="criptografar">Criptografar Mensagem</label>
