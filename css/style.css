@@ -1,7 +1,14 @@
 body {
-    background-color: #a3d5d3;
+    background-color: #dbe0e0;
   }
+.jumbotron{
+  background-color: #224146;
+  color: aliceblue;
+  text-align: center;
   
-  .editHover {
-    background: #E8F3FF 
-  }
+}
+
+.btn{
+  background-color: #5b6362;
+  left: 15px;
+}
