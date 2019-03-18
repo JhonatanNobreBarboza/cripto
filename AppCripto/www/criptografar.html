@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Encripto</title>
+    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" />
+
+    <title>Criptografar | Cripto</title>
+</head>
+
+<body>
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
+                  <h1 class="display-5">Criptografar Mensagem</h1>
+                </div>
+              </div>
+
+        <div class="container-fluid">
+            <form method="POST" action="functions.js" id="formulario">
+                <div class="container-fluid col-12">
+                    <div class="row-fluid">
+                        
+                            <label for="criptografar"></label>
+
+                            <textarea class="form-control cripto" rows="8"></textarea>
+                    
+                            <div class="input-group row col-12">
+                                    <input type="number" class="form-control chave1" placeholder="Digite a Chave"aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                      <button class="btn btn-primary botaoCri" onclick="criptografar()" type="button" id="button-addon2">Criptografar</button>
+                                    </div>
+                                  </div>                           
+                        </div>                 
+                            
+                        </div>
+
+                            <div class="form-group col-12">
+                                <label for="resultado">Resultado</label>
+                                <textarea class="form-control result" rows="4" ></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <a href="index.html" class="link"> << voltar</a>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="" src="js/functions.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

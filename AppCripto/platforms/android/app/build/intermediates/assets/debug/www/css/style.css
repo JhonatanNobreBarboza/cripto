@@ -1,0 +1,35 @@
+body {
+    background-color: #2b2929;   
+  }
+
+.jumbotron{
+  background-color: #000000;
+  color: aliceblue;
+  text-align: center;
+  border: 1px solid #ffffff; 
+}
+
+.btn{
+  background-color: #ef727200;
+  left: 15px;
+  border-color: #ffffff;
+}
+.display-5{
+  font-size: 20px;
+}
+
+.link{
+  color: #ffffff;
+}
+
+.chave1, .chave2, .result{
+  background-color: #e4e4e4;
+  color: #000000;  
+}
+
+.cripto, .descripto{
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+  margin-bottom: 10px;
+}
